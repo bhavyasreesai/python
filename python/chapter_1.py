@@ -1,15 +1,15 @@
 import random
 def get_choices():
     player_choice=input("enter your choice(rock,paper,scissors- )")#variable
-#we can use single qoute and double quote
+#we can use single quote and double quote
     options=["rock","paper","scissors"]
     computer_choice=random.choice(options)#variable #we are making the computer to make its own choices
 #function is set of code only runs when it is called
-#in python intendation is very important
+#in python indentation is very important
     choices={"player": player_choice, "computer" : computer_choice }
     return choices
 def check_win(player,computer): #creating (ARGUMENT)function
-    print(" player chose " + player + " computer chose " + computer)#concatinating strings
+    print(" player chose " + player + " computer chose " + computer)#concatenating strings
 #  print(f"you chose{player} ,computer chose {computer}")
     if player==computer:
        return "its a tie!"
@@ -65,12 +65,12 @@ print(result)
 
 dict={"name":"beau","colour":choices}
        # key:value
-       #value in a dictonary can be a variable
+       # in a dictionary can be a variable
 
 # USER INPUT
 
 #INPUT LIBRARIES,LITS,METHODS
- #PYTHON LIBRAREIES ARE USEFUL , WE DONT HAVE TO WRITE CODE FROM SCRACH
+ #Python LIBRARIES ARE USEFUL , WE DON'T HAVE TO WRITE CODE FROM SCRACH
 #a list in python are used to store multiple item in a single variable
 
 food=["pizza","carrots","eggs"]
@@ -85,8 +85,8 @@ b=5
 if a>b:
     print("yes")
 
-#comcadinating strings
-#we can concadinate with +
+#concatenating strings
+#we can concatenate with +
     #we can combine strings with other strings,strings with variables
     # we also have another method called "f-string"
     age=25
@@ -102,5 +102,5 @@ elif age>1:
 else:
     print("baby")
 
-# REFACIORING AND NESTED IF
-#process of restructeing code,while keeping the original functianllyty
+# REFACTORING AND NESTED IF
+#process of restructuring code,while keeping the original functianllyty
