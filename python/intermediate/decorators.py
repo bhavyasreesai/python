@@ -20,3 +20,23 @@ def print_name():
     print("alex")
 print_name=start_end_decorator(print_name)
 print_name()
+
+
+#*args-arguments
+#**kwargs=kew word argumentsm
+
+
+
+
+
+
+def start_end_decorator():
+  print("hello")
+def decorator(func):
+  def wrapper():
+    print('start')
+    func()
+    print('stop')
+  return wrapper
+output=decorator(start_end_decorator)
+output()#this contains wrapper func , so we call it in ()
